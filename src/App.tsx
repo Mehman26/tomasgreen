@@ -68,7 +68,7 @@ const AppContent: React.FC = () => {
   return (
     <div className="min-h-screen bg-brand-light overflow-x-hidden page-navigation">
       <Header />
-      <main className="overflow-x-hidden pt-12 xs:pt-12 sm:pt-14" data-scroll-container>
+      <main className="overflow-x-hidden sm:pt-14" data-scroll-container>
         {renderPage()}
       </main>
       <Footer />
